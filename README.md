@@ -1,6 +1,8 @@
 #MiniMon4J
 Java implementation of the [MiniMon.js](https://github.com/aweijnitz/MiniMon) using [Undertow.io](http://undertow.io/) and [RounderDB4J](https://github.com/aweijnitz/RounderDB4J).
 
+Build status: [![Build Status](https://travis-ci.org/aweijnitz/MiniMon4J.png)](https://travis-ci.org/aweijnitz/MiniMon4J)
+
 ## Status
 Early working prototype. 
 
