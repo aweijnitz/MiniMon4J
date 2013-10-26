@@ -92,23 +92,6 @@
 
 	<build>
 		<plugins>
-			<!-- Enable pulling in dependencies directly from GitHub (git) -->
-			<plugin>
-				<groupId>com.ejwa</groupId>
-				<artifactId>maven-gitdep-plugin</artifactId>
-				<version>0.1</version>
-				<configuration>
-					<gitDependencies>
-						<gitDependency>
-							<groupId>RounderDB4J</groupId>
-							<artifactId>RounderDB4J</artifactId>
-							<location>https://github.com/aweijnitz/RounderDB4J.git</location>
-							<branch>master</branch>
-						</gitDependency>
-					</gitDependencies>
-				</configuration>
-			</plugin>
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
